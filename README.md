@@ -15,3 +15,14 @@ This project implements a basic Automated Market Maker (AMM). The contract is fu
 
 - **`AMM.sol`**: The main contract file containing the AMM logic.
 - **`AMMTest.sol`**: The test contract used to test the AMM functionality.
+
+  ### Test Contract
+
+The `AMMTest.sol` contract is used to test the AMM functionality. It deploys instances of the `AMM` contract and ERC20 tokens, then performs various operations and verifies the expected outcomes.
+
+#### Test Cases
+
+- **testAddLiquidity**: Tests adding liquidity to the AMM and checks the reserves.
+- **testRemoveLiquidity**: Tests removing liquidity from the AMM and checks the returned amounts.
+- **testSwapXForY**: Tests swapping Token X for Token Y and checks the reserves.
+- **testSwapYForX**: Tests swapping Token Y for Token X and checks the reserves.
