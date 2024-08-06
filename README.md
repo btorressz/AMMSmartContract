@@ -27,5 +27,10 @@ The `AMMTest.sol` contract is used to test the AMM functionality. It deploys ins
 - **testSwapXForY**: Tests swapping Token X for Token Y and checks the reserves.
 - **testSwapYForX**: Tests swapping Token Y for Token X and checks the reserves.
 
-- ## Tools Used
-- Remix IDE((https://remix.ethereum.org/))
+## Acknowledgments
+
+This project was developed and tested entirely in the Remix IDE.
+
+## License
+
+This project is licensed under the MIT License.
