@@ -1,5 +1,5 @@
 # AMMSmartContract
-This project implements a basic Automated Market Maker (AMM). The contract is fully developed and tested in the Remix IDE and written entirely in Solidity.
+This project implements a basic Automated Market Maker (AMM). The contract is fully developed and tested in the Remix IDE and written entirely in Solidity. 
 
 ## Features
 
@@ -26,3 +26,6 @@ The `AMMTest.sol` contract is used to test the AMM functionality. It deploys ins
 - **testRemoveLiquidity**: Tests removing liquidity from the AMM and checks the returned amounts.
 - **testSwapXForY**: Tests swapping Token X for Token Y and checks the reserves.
 - **testSwapYForX**: Tests swapping Token Y for Token X and checks the reserves.
+
+- ## Tools Used
+- Remix IDE((https://remix.ethereum.org/))
